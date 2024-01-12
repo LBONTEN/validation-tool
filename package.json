@@ -22,6 +22,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@comunica/query-sparql": "^2.10.1",
     "json2xls": "^0.1.2",
     "rdf-js": "4.0.2",
     "rdfstore": "0.9.17",

@@ -51,3 +51,16 @@ npm run start:dev
 The browser-build version of Comunica link traversal must be added as Javascript file in the index.html.
 If you want to adapt to another Comunica config, build an engine with your config + webpack to a browser js:
 https://github.com/brechtvdv/comunica-feature-link-traversal/commit/c42d57e6d9328de962de66f28413660454319efe
+
+## What does it do?
+
+This project means to achieve a tool in which publications can be validated for harvesting. A publication can have several requirements in order to make structural sense. Thus this tool can be useful for checking these sort of mistakes.
+
+Requirements:
+- Each publication has a document type. This document type can be one of the following:
+  - besluit
+  - notulenlijst
+
+- Each publication must have a title and description of type string.
+- 
+ 
