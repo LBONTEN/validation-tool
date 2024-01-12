@@ -5,6 +5,6 @@ dist/*.txt
 
 .travis.yml
 *.log
-*/.DS_Store
+**/.DS_Store
 
 /.eslintcache
